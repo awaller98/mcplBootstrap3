@@ -1,0 +1,192 @@
+         /*
+--=.._/(    #tertiary .block h3,#tertiary .view    Mid-Continent GLOBAL STYLES Drupal adjustments      )\_..=--
+    	  */
+#tertiary .view .date-heading,  #primary .secondary .date-heading {
+ margin-left: -65px;
+}
+
+
+ #tertiary .view .date-heading h3, #primary .secondary .date-heading h3
+{
+ background:none;
+}
+.webresources table { border: 0px; }
+.webresources tr { border: 0px; }
+.webresources td { border: 0 solid white !important; padding: 1.0em; width:50%;}
+#breadcrumbs {
+   bottom: .38em;  /* kgb */
+   margin-left: -20px;
+}
+	* html #breadcrumbs {
+		margin-left: 0;
+	}
+
+#sidebar-left .multi h4{  /* Remapping #secondary in sidebar-left */
+		border-bottom: 1px dashed #B7B3A6;
+		font-size: 1.5em;
+		font-weight: bold;
+		margin-bottom: 1em;
+		padding-bottom: .5em;
+}
+
+#sidebar-left ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;	
+}
+
+#sidebar-left ul li{
+		margin-bottom: .5em;
+}
+#sidebar-left ul{
+		font: 1.165em/1.1em georgia,"times new roman", serif;
+}
+
+/*
+.cta-newsletter{
+	margin-left:-6px;
+}
+ */
+.related_info{
+	margin-left:10px;
+	margin-bottom: 50px;
+}
+
+
+/* 
+.page-interior #primary {
+margin-left:0;
+}
+ */
+/* left nav default averrides */
+/*
+-- system_menu.css blocked in mcpl.info so overrides are commented out.
+ ul.menu {
+  list-style: none;
+  border: none;
+  text-align:left; 
+}
+ul.menu li {
+}
+li.expanded {
+  list-style-type: circle;
+  list-style-image: none;
+  padding: 0;
+  margin: 0;
+}
+li.collapsed {
+  list-style-type: none;
+  list-style-image: none;
+  padding: 0; 
+  margin: 0;
+}
+li.leaf {
+  list-style-type: none;
+  list-style-image: none;
+  padding: 0; 
+  margin: 0;
+}
+li a.active {
+  color: #000;
+}
+td.menu-disabled {
+  background: #ccc;
+}
+.block ul {
+  margin: 0;
+}
+ */
+
+/* left nav */
+#wrapper #nav-sub{
+	/*border: 1px solid #000; 	*/
+/*	align: left; */
+	margin-left: 4px;
+	padding: 0;
+}
+
+/* 
+
+	global.css updated to reflect drupal output. span is now added to active element with js.
+	
+	#wrapper #nav-sub  .menu ul  ul {
+		margin-bottom: 0;
+	}
+	#wrapper #nav-sub  .menu ul  ul  ul {
+		list-style-type: disc;
+	}
+	#nav-sub  .menu li.collapsed>a {
+		background-color: #fff9e7;
+	}
+	#wrapper #nav-sub  .menu li.parent  ul a{
+
+		background-color: #Ffeaab;
+		background: #ffeaab url('../img/css/nav-bullet.png') 9px 50% no-repeat;
+	   padding: 5px 11px 5px 20px; 
+	 
+	}
+	
+	#wrapper #nav-sub .menu li.parent ul  ul li {
+		border-top: none;
+	}
+
+	#wrapper #nav-sub  .menu li.parent ul ul a{
+		background-color: #fde5c9;
+		background-position: 27px 50%;
+		padding: 5px 11px 5px 40px;
+		margin: 0;
+		
+	}
+
+#wrapper #nav-sub  .menu li.parent ul .active a { 
+		background: transparent url('../img/css/mcpl-sprite-global.png') right -2px no-repeat;
+		color: #ffffff;
+		padding-left: 27px;
+		padding-top:6px;
+		width: 193px;
+		text-indent:13px;
+	}		
+
+#wrapper #nav-sub  .menu li.parent ul .active a:hover	{ text-decoration: none;}
+
+#wrapper #nav-sub .menu  li.parent a span{
+background:  transparent url('../img/css/nav-bullet-active.png') left center no-repeat;
+			display: inline-block;
+			height: 10px;
+			width: 13px;
+}
+		
+#wrapper #nav-sub .menu li .active .menu2 li a{
+		background-color: #fde5c9;
+		background: #fde5c9 url('../img/css/nav-bullet.png') 9px 50% no-repeat;
+		color: #4e535e;
+	   padding: 4px 11px 4px 20px;  
+      text-indent:0px;
+}	 */	
+
+/* slider */
+#book_letters {
+		background:  transparent url('../img/css/bg-media-spinner.jpg') 0 0 no-repeat;
+	margin-bottom: 2em;
+	width: 705px;
+/*	border: 1px solid #000; */
+	margin: auto;
+	padding:60px;
+	padding-left:70px;
+	margin-left:-10px;
+	position: relative;
+	overflow: hidden;
+	z-index:50;
+
+}
+#blockspace {
+   margin-top:325px;
+   z-index:-5;
+   width:1px;
+}
+
+/* KS to remove grey line at the top of tables (system.css) */
+
+tbody { border-top: 0 solid #fff }
+
+tbody th { border-bottom 0 solid #fff }

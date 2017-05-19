@@ -1,0 +1,421 @@
+        /*
+--=.._/(        Mid-Continent MAIN MENU STYLES      )\_..=--
+    	  */
+
+
+/*
+
+--------- Notes -----------
+
+Separated from global.css to allow the main menu to be embeded into 3rd party sites by including external html and CSS files
+rather than pasting in code directly.
+
+In this way, all sites can be updated by simply editing one or two files.
+*/
+
+
+
+
+/*Main 1 - maximenu styles - AMW
+**************************************/
+
+/*Resets*/
+#om-maximenu-main-1 a, #om-maximenu-main-1 a:visited  {
+text-decoration: none;
+}
+
+#om-maximenu-main-1 h3 a:hover, #om-maximenu-main-1 h3 a:focus {
+text-decoration: underline;	
+}
+
+#om-maximenu-main-1 .content, #om-maximenu-main-1 .menu, #om-maximenu-main-1 .title, #om-maximenu-main-1 .block, #om-maximenu-main-1 .leaf  {
+margin:0;
+padding:0; 
+background: none;
+
+ }
+
+ 
+/* Fix z-index for ltie8 
+ **************************************/
+#wrapper #header {
+position: relative;
+z-index: 200;
+}
+
+#wrapper #header #header-inner {
+position: relative;
+z-index: 400;
+}
+
+#wrapper #header #breadcrumbs {
+position: relative;
+z-index: 300;
+}
+
+#wrapper #content {
+position: relative;
+//z-index: 100;
+}
+
+/***************************************/
+
+.accessibility, ul li a.accessibility  { height:0;left:-9999em;line-height:0;position:absolute;text-indent:-9999em; }
+
+body #om-maximenu-main-1 {
+color: #393d40;
+font: 12px Arial, Helvetica, sans-serif;
+top: 95px;
+position: absolute;
+}
+
+#om-maximenu-main-1  h1, #om-maximenu-main-1 h2, #om-maximenu-main-1 h3, #om-maximenu-main-1 h4, #om-maximenu-main-1 h5, #om-maximenu-main-1 h6	{ 
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	font-weight: normal;
+	margin: 0 0 .25em 0;
+	line-height: 1.2em;
+	}
+
+#om-maximenu-main-1 h1	{ font-size: 24px; } 	/* 24px */
+#om-maximenu-main-1 h2	{ font-size: 12px; color: #583f2c; letter-spacing: 2px; margin: 0 4px 0 2px; padding-top: 5px; text-transform: uppercase;} /* 20px */
+#om-maximenu-main-1 h3	{ font-size: 17px; } /* 17px */
+
+.om-maximenu {
+	position:static;/* Keep Firefox from treating the menu like a fixed postion element - AMW */
+}
+ 
+#om-maximenu-main-1 .block {
+float: left;
+padding:.2em 1em 0 1em;
+} 
+ 
+#om-maximenu-main-1 li {
+list-style-type: none;
+}
+
+.om-maximenu-open {
+	display: none;
+	visibility:hidden;
+} 
+
+
+#om-menu-main-1 {
+width: 940px;
+margin: auto;
+margin-bottom: 1em;
+height: 40px;
+top:24px;
+z-index: 60;
+}
+
+.om-maximenu-bubble.om-maximenu-main-menu .om-maximenu-content {
+top: 43px;
+padding:0;
+}
+
+.om-maximenu-bubble.om-maximenu-main-menu .om-maximenu-content .om-maximenu-arrow {
+top: -8px;
+position: absolute;
+width: 40px;
+height: 13px;
+background-position: 0 -80px;
+}
+
+
+#om-maximenu-main-1 .om-leaf > .om-maximenu-content {
+left: 0;
+}
+
+/*Format the menu items */ 
+
+#om-menu-main-1 .om-maximenu-middle .title, #om-menu-main-1 .om-maximenu-middle .title a {
+color:#04517A;
+ }
+
+.om-maximenu ul.om-menu li.om-leaf {
+height: 40px;	
+}
+
+
+
+.om-maximenu ul.om-menu li.om-leaf .om-link {
+display: block;
+padding: 0;
+margin: 0;
+height: 40px;
+line-height: 40px;
+color: #393d40;
+font-size:13px;
+font-weight: bold;
+text-align: center;
+vertical-align: middle;
+width: 100%;
+box-sizing: content-box;
+}
+
+#om-menu-main-1 .om-leaf.active > a, #om-menu-main-1 .om-leaf.active-trail > a, .section-books-movies-music .leaf-books-movies-music > a, .section-online-resources .leaf-online-information > a,
+.section-events .leaf-events > a,
+.section-genealogy .leaf-special-resources > a,
+.section-kids .leaf-kids > a,
+.section-teens .leaf-teens > a,
+.section-about-us .leaf-about-us > a,
+.section-locations .leaf-about-us > a {
+color: rgb(3,81,124);
+border-left: 1px solid #E0E0E0;
+border-right: 1px solid #E0E0E0;
+margin-left: -1px;
+}
+
+#om-menu-main-1 .om-leaf:hover > a{
+border-left: 1px solid #E0E0E0;
+border-right: 1px solid #E0E0E0;
+margin-left: -1px;
+background: #e0e0e0; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2UwZTBlMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ4JSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+background: -moz-linear-gradient(top,  #e0e0e0 0%, #ffffff 48%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e0e0e0), color-stop(48%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #e0e0e0 0%,#ffffff 48%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #e0e0e0 0%,#ffffff 48%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #e0e0e0 0%,#ffffff 48%); /* IE10+ */
+background: linear-gradient(to bottom,  #e0e0e0 0%,#ffffff 48%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', endColorstr='#ffffff',GradientType=0 ); /* IE6-8 */
+
+color: rgb(3,81,124);
+
+}
+
+.om-maximenu-middle ul.menu li:nth-child(1) {
+border-top: 1px solid #D6D9D7;
+}
+
+.om-maximenu-content ul.menu li.first a {
+border-top: 1px solid #fff;
+
+}
+
+.om-maximenu-content ul.menu li a {
+color: #393d40;
+display: block;
+border-bottom: 1px solid #d6d9d7;
+text-decoration: none;
+padding: 5px 8px;
+width: 200px;
+}
+
+.om-maximenu-content ul.menu li a:hover {
+color: #14507f;
+background: #f7f7f7;
+}
+
+/* Narrow menu layout */
+	#om-menu-main-1 .leaf-catalog div.om-maximenu-top, 
+	#om-menu-main-1 .leaf-catalog div.om-maximenu-middle, 
+	#om-menu-main-1 .leaf-catalog div.om-maximenu-middle .om-maximenu-middle-right, 
+	#om-menu-main-1 .leaf-catalog div.om-maximenu-bottom
+	{
+	width: 240px;
+	}
+/* Wide menu layout */
+
+#om-menu-main-1 div.om-maximenu-top, 
+#om-menu-main-1 div.om-maximenu-middle, 
+#om-menu-main-1 div.om-maximenu-middle .om-maximenu-middle-right, 
+#om-menu-main-1 div.om-maximenu-bottom
+{
+width: 480px;
+}
+/*
+#om-menu-main-1 div.om-maximenu-middle .om-maximenu-middle-right {
+	width:520px;
+}
+*/
+/* Spread menu items horizontaly only for specified menus */
+/*
+.leaf-special-resources > div > div.om-maximenu-middle .block-menu {
+width: 100%;
+}
+
+.leaf-special-resources > div > div.om-maximenu-middle > div > div li {
+ display:inline-block;	
+ zoom: 1;
+*display: inline;
+} 
+
+.leaf-special-resources .om-maximenu-middle ul.menu li:nth-child(2) {
+border-top: 1px solid #D6D9D7;
+}
+
+.leaf-special-resources div.om-maximenu-middle > div > div li {
+margin-right:1em;
+}
+*/
+/* Center the menu for specified wide menus */
+#om-maximenu-main-1 .leaf-online-information.om-leaf div.om-maximenu-content,
+#om-maximenu-main-1 .leaf-special-resources.om-leaf div.om-maximenu-content {
+left: -160px;
+}
+
+/* Catalog */
+
+li.leaf-catalog {
+width: 96.0625px;
+}
+
+li.leaf-catalog a.om-link {
+border-top: 3px solid #EF3E42;
+}
+
+#om-maximenu-main-1 li.leaf-catalog .om-maximenu-arrow {
+left: 30px;
+}
+	
+/* BMM */
+li.leaf-books-movies-music {
+width: 175.0625px;	
+}
+
+li.leaf-books-movies-music a.om-link {
+border-top: 3px solid #F58426;
+}
+
+#om-maximenu-main-1 li.leaf-books-movies-music .om-maximenu-arrow {
+left: 66px;
+}
+/* Online Information */
+li.leaf-online-information {
+width: 157.0625px;
+}
+
+#om-maximenu-main-1 li.leaf-online-information a.om-link {
+border-top: 3px solid #FFC425;
+}
+
+#om-maximenu-main-1 li.leaf-online-information .om-maximenu-arrow {
+left: 219px;
+}
+
+
+#om-maximenu-main-1 .leaf-online-information div.block.first {
+float: none;
+}
+/* Events */
+li.leaf-events {
+width: 91.0625px;
+}
+#om-maximenu-main-1 .leaf-events.om-leaf div.om-maximenu-content {
+left: -194px;
+}
+
+li.leaf-events a.om-link {
+border-top: 3px solid #669131;
+}
+
+#om-maximenu-main-1 li.leaf-events .om-maximenu-arrow {
+left: 219px;
+}
+
+div.block.block-menu.block-menu-id-menu-om-events--categories.first {
+float: right !important;
+}
+
+/* Special libraries */
+li.leaf-special-resources {
+width: 149.0625px;
+}
+
+#om-maximenu-main-1 li.leaf-special-resources .om-maximenu-arrow {
+left: 215px;
+}
+
+li.leaf-special-resources a.om-link {
+border-top: 3px solid #8DC63F;
+}
+
+/* Kids */
+li.leaf-kids {
+width: 78.0625px;
+}
+#om-maximenu-main-1 .leaf-kids.om-leaf div.om-maximenu-content {
+left: -209px;
+}
+
+li.leaf-kids a.om-link {
+border-top: 3px solid #0d618d;
+}
+
+#om-maximenu-main-1 li.leaf-kids .om-maximenu-arrow {
+left: 230px;
+}
+
+/* Temp "new" label */
+.block.block-menu.block-menu-id-menu-om-kids-forkids h3:after, .block.block-menu.block-menu-id-menu-om-kids h3:after {
+    content: "New!";
+    font-size: .7em;
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(-30deg);
+    display: inline-block;
+    position: absolute;
+    top: -5px;
+    color: #ff0909;
+    
+}
+
+/* Teens */
+li.leaf-teens {
+width: 88.0625px;
+}
+#om-maximenu-main-1 .leaf-teens.om-leaf > div.om-maximenu-content {
+left: -287px;
+}
+
+li.leaf-teens a.om-link {
+border-top: 3px solid #0081C6;
+}
+
+#om-maximenu-main-1 li.leaf-teens .om-maximenu-arrow {
+left: 310px;
+}
+
+/* About us */
+li.leaf-about-us {
+width: 104.0625px;
+}
+.leaf-about-us > div > div.om-maximenu-middle > div > div {
+width: 38em;
+}
+
+#om-maximenu-main-1 .leaf-about-us.om-leaf > div.om-maximenu-content {
+left: -375px;
+}
+
+li.leaf-about-us a.om-link {
+border-top: 3px solid #7F3F98;
+}
+
+#om-maximenu-main-1 li.leaf-about-us .om-maximenu-arrow {
+left: 405px;
+} 
+
+#om-maximenu-main-1 .social li a{
+			background:  transparent url('http://www.mymcpl.org/sites/all/themes/mcpl/_resources/img/css/mcpl-sprite-global.png') 0 -310px no-repeat;
+			display: block;
+			float: left;
+			height: 38px;
+			text-indent: -999em;
+			width: 34px;
+		}
+	#om-maximenu-main-1	.social li a:hover {opacity:.8;}
+	#om-maximenu-main-1	li a.social-twitter 		{ background-position: -35px -310px; }
+	#om-maximenu-main-1	li a.social-vimeo		    { background-position: -70px -310px; }
+	#om-maximenu-main-1	li a.social-pintrest 			{ background-position: -105px -310px; }
+	#om-maximenu-main-1 li a.social-instagram 		{ background-position: -141px -310px; }
+	
+/* Fix dropdown width in the bootstrap theme */
+ 
+.om-maximenu-bubble .om-maximenu-middle-right {
+    box-sizing: content-box;
+}
