@@ -52,7 +52,7 @@
   <?php print $styles; ?>
   <?php print $scripts; ?>
 </head>
-<body class="page-interior  not-front not-logged-in node-type-interior-2c one-sidebar sidebar-left page-books-movies-music-juvenile-series section-books-movies-music <?php //print $classes; ?>" <?php print $attributes;?>>
+<body class="page-interior node-type-interior-2c one-sidebar sidebar-left page-books-movies-music-juvenile-series section-books-movies-music <?php //print $classes; ?>" <?php print $attributes;?>>
   <div id="skip-link">
     <a href="#main-content" class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a>
   </div>
