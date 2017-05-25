@@ -83,6 +83,7 @@ scripts[] = _resources/js/bootstrap-datepicker.js
   ; add a line line to this file, and then add the new variable to your
   ; page.tpl.php template.
 regions[content]        = 'Content'
+regions[sidebar1]        = 'Sidebar1'
 
   ; Various page elements output by the theme can be toggled on and off. The
   ; "features" control which of these check boxes display on the

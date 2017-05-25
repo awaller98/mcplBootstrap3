@@ -82,7 +82,7 @@
 
 
 
-<div id="wrapper" class="not-front not-logged-in node-type-interior-2c one-sidebar sidebar-left page-books-movies-music-juvenile-series section-books-movies-music"> <div id="page">
+<div id="wrapper" class="node-type-interior-2c one-sidebar sidebar-left page-books-movies-music-juvenile-series section-books-movies-music"> <div id="page">
 <!--<div id="page-inner"> -->
 
     <a name="navigation-top" id="navigation-top"></a>
@@ -908,6 +908,7 @@ $('#edit-submitted-currenturl').val(document.URL);
                     <div id="secondary">
           <div id="sidebar-left-inner" class="region region-left">
 
+    <?php print render($page['sidebar1']); ?>
                   
       <h2 id="section">Books, Movies, Music</h2>
   
@@ -937,25 +938,25 @@ $('#edit-submitted-currenturl').val(document.URL);
   
   <div class="content">
     <div>
-<table border="0" align="center" style="margin-left:-5px;"><tbody>
+<table border="0" align="center" style="margin-left:5px;"><tbody>
 <tr>
-<td align="left"><h3><a href="/books-movies-music/adrenaline" style="text-decoration: none;">Adrenaline</a></h3></td>
-<td align="right"><h3><a href="/books-movies-music/mystery" style="text-decoration: none;">Mystery</a></h3></td>
+<td align="left"><h4><a href="/books-movies-music/adrenaline" style="text-decoration: none;">Adrenaline</a></h4></td>
+<td align="right"><h4><a href="/books-movies-music/mystery" style="text-decoration: none;">Mystery</a></h4></td>
 </tr><tr>
-<td><h3><a href="/books-movies-music/fantasy" style="text-decoration: none;">Fantasy</a></h3></td>
-<td align="right"><h3><a href="/books-movies-music/nonfiction" style="text-decoration: none;">Nonfiction</a></h3></td>
+<td><h4><a href="/books-movies-music/fantasy" style="text-decoration: none;">Fantasy</a></h4></td>
+<td align="right"><h4><a href="/books-movies-music/nonfiction" style="text-decoration: none;">Nonfiction</a></h4></td>
 </tr><tr>
-<td><h3><a href="/books-movies-music/fiction" style="text-decoration: none;">Fiction</a></h3></td>
-<td align="right"><h3><a href="/books-movies-music/romance" style="text-decoration: none;">Romance</a></h3></td>
+<td><h4><a href="/books-movies-music/fiction" style="text-decoration: none;">Fiction</a></h4></td>
+<td align="right"><h4><a href="/books-movies-music/romance" style="text-decoration: none;">Romance</a></h4></td>
 </tr><tr>
-<td><h3><a href="/books-movies-music/historical-fiction" title="Historical Fiction" style="text-decoration: none;">Historical</a></h3></td>
-<td align="right"><h3><a href="/books-movies-music/sci-fi" style="text-decoration: none;">Sci-Fi</a></h3></td>
+<td><h4><a href="/books-movies-music/historical-fiction" title="Historical Fiction" style="text-decoration: none;">Historical</a></h4></td>
+<td align="right"><h4><a href="/books-movies-music/sci-fi" style="text-decoration: none;">Sci-Fi</a></h4></td>
 </tr><tr>
-<td><h3><a href="/books-movies-music/horror" title="Horror" style="text-decoration: none;">Horror</a></h3></td>
-<td align="right"><h3><a href="/books-movies-music/western" style="text-decoration: none;">Western</a></h3></td>
+<td><h4><a href="/books-movies-music/horror" title="Horror" style="text-decoration: none;">Horror</a></h4></td>
+<td align="right"><h4><a href="/books-movies-music/western" style="text-decoration: none;">Western</a></h4></td>
 </tr><tr>
-<td><h3><a href="/books-movies-music/inspirational" style="text-decoration: none;">Inspirational</a></h3></td>
-<td align="right"><h3><a href="/books-movies-music/womens-fiction" title="Women's Fiction" style="text-decoration: none;">Women's</a></h3></td>
+<td><h4><a href="/books-movies-music/inspirational" style="text-decoration: none;">Inspirational</a></h4></td>
+<td align="right"><h4><a href="/books-movies-music/womens-fiction" title="Women's Fiction" style="text-decoration: none;">Women's</a></h4></td>
 </tr></tbody></table>
 </div>  </div>
 
