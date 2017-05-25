@@ -78,6 +78,8 @@ if (theme_get_setting('mcplBootstrap3_fixed')) {
 // */
 
 
+/* Comment */
+
 /**
  * Include common functions used through out theme.
  */
