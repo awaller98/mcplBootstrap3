@@ -1,4 +1,0 @@
-<a href='http://www.addthis.com/bookmark.php?v=250&amp;pubid=ra-4d75518b54bda27a' 
-        class='addthis_button'><img style='padding-left:4px;padding-right:4px' align='right'
-        src='http://s7.addthis.com/static/btn/v2/lg-share-en.gif' 
-        width='125' height='16' border='0' alt='Share' /></a>
