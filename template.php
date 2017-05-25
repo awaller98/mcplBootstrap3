@@ -88,7 +88,7 @@ include_once 'common.inc';
 //include_once 'process.inc';
 
 
-
+/* another comment */
 
 /**
  * Declare various hook_*_alter() hooks.
