@@ -6,7 +6,7 @@
 */
 
 // jquery no conflict. use $j or jQuery outside of ready function
-var $j = jQuery.noConflict(); 
+//var $j = jQuery.noConflict(); 
 
 // jQuery document ready
 jQuery(function($) {
@@ -25,15 +25,6 @@ jQuery(function($) {
 	
 	// we need a span for the active page in the left nav and drupal is being fussy. 
 	$('#nav-sub .active').prepend('<span></span>');
-	
-	//mediaHovers();
-	//$(".media-listing>ul li>a").tooltip();
-	$(".media-link").tooltip({ 
-		offset: [26, 2],
-		position: 'top center',
-		relative: true,
-		effect: 'slide'
-	}).dynamic({ bottom: { direction: 'down', bounce: true } });
 	
 	/* login pull down*/
 	$('#login-global').hide();

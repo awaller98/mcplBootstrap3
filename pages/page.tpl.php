@@ -697,7 +697,7 @@ $("#ebscohostsearchtextBlock").blur(function() {
 
 <p>Need some help with your English homework? Maybe a history or science project? Just need some general tutoring help? MCPL's Homework Help area has the resources you need.</p>
 
-<p><strong><a "="" teens="" homework-help-teens"="" title="Homework Help" class="om-autoscroll">Explore Homework Help ▶</a></strong></p>
+<p><strong><a href="teens/homework-help-teens" title="Homework Help" class="om-autoscroll">Explore Homework Help ▶</a></strong></p>
 </div></div>
   </div><!-- /.block -->
           <div class="om-clearfix"></div>
