@@ -353,7 +353,7 @@ h2#section{
 		color: #f8c73b;
 	}
 
-.block h2, .view h2, #tertiary .block h3, #tertiary .view h3, #primary .secondary h2, #primary .secondary h3, .front #secondary h3 {
+.block h2, .view h2, #tertiary .block h3, #tertiary .view h3, #primary .secondary h2, #primary .secondary h3, .front #secondary h3, #block-system-navigation h2 {
 /* 	background-color: #f8c73b; */
 	background: transparent url('../img/css/bg-hdr-sprite.png') left top repeat-x;
 
@@ -384,7 +384,7 @@ h2#section{
 		background-position: -703px top;
 		padding-top: 14px;
 	}
-.block h2 span, .view h2 span, #tertiary .block h3 span, #tertiary .view h3 span, #primary .secondary h2 span, #primary .secondary h3 span, .front #secondary h3 span{
+.block h2 span, .view h2 span, #tertiary .block h3 span, #tertiary .view h3 span, #primary .secondary h2 span, #primary .secondary h3 span, .front #secondary h3 span, #block-system-navigation h2 {
 	background: transparent url('../img/css/bg-hdr-sprite.png') -472px 0px repeat-x;
 	margin: -5px 5px 0 0;
 	margin: -5px 3px 0 0;
@@ -3151,7 +3151,7 @@ height: 3em;
 
 /* Fix block styles for the left sidebar. Add each block that needs to be styled. - AMW */
 
-#block-block-98 div.content {
+#block-block-98 div.content, #block-system-navigation div.content {
 padding: 8px;
 background: white;
 border-left: 3px solid #F2EFE6;
@@ -3160,6 +3160,12 @@ border-right: 3px solid #F2EFE6;
 border-radius: 5px;
 }
 
+#block-block-98 div.content, #block-system-navigation div.content ul {
+margin-left:5px;    
+}
+#block-block-98 div.content, #block-system-navigation div.content li {
+list-style: none;   
+}
 /* My Library Story */
 
 .libstory .thumb {
