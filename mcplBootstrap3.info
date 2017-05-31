@@ -25,6 +25,8 @@ core       = 7.x
 ;stylesheets[all][]   =  _resources/css/mcpl_zen.css
 ;stylesheets[all][] = _resources/js/smartbanner/jquery.smartbanner.css
 stylesheets[all][]   = _resources/css/global.css
+stylesheets[all][] = _resources/skin/bubble/bubble.css
+stylesheets[all][] = _resources/skin/simple/simple.css
 stylesheets[all][]   = _resources/css/om_maximenu.css
 stylesheets[all][]   = _resources/css/main-menu.css
 stylesheets[all][] = system-menus.css
@@ -65,6 +67,8 @@ scripts[] = _resources/js/jquery.placeholder.min.js
 ;scripts[] = _resources/js/smartbanner/jquery.smartbanner.js
 ;scripts[] = _resources/js/views-calendar.js
 scripts[] = _resources/js/om_maximenu.js
+scripts[] = _resources/contrib/jquery.lavalamp.min.js
+scripts[] = _resources/contrib/jquery.hoverIntent.minified.js
 
 
 ;BOOTSTRAP
