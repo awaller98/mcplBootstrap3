@@ -129,7 +129,7 @@ $('#q').attr('value','');
 }
 </script> 
                <a id="_brand" href="/">
-                         <img src="/sites/all/themes/mcpl/_resources/img/css/access_logo_color.png" title="Mid-Continent Public Library" alt="Mid-Continent Public Library" height="95px"></a>
+                         <img src="http://www.mymcpl.org/sites/all/themes/mcpl/_resources/img/css/access_logo_color.png" title="Mid-Continent Public Library" alt="Mid-Continent Public Library" height="95px"></a>
                
           <div id="utility">
         
@@ -288,17 +288,19 @@ $('#q').attr('value','');
   </div><!-- /.block -->
  
 
+
 <div class="block block-block block-block-id-92 last">           
-    <div class="content"><div class="featured" style="display: block;">
+    <div class="content"><!EMAGAZINES-->
+<div class="featured" style="display: block;">
 <h2 style="background: none; margin-top: .5em;">Featured</h2>
 
-<p><a href="/winterreading" title="Winter Reading Challenge" class="om-autoscroll"><img style="float: right; margin-left: 10px; margin-right: 10px;" src="/_uploaded_resources/feature-wrc2017.jpg" alt="Winter Reading Challenge" width="177"></a></p>
-<h4>Winter Reading Challenge</h4>
-<p>You are cordially invited to step onto the red carpet and explore the exciting array of stories that have been adapted for the big screen with MCPL's 2017 Winter Reading Challenge.</p>
+<p><a href="http://www.mymcpl.org/books-movies-music/emagazines" title="eMagazines"><img style="float: right; margin-left: 10px; margin-right: 10px;" src="http://www.mymcpl.org/_uploaded_resources/feature-magazines.jpg" alt="eMagazines"  /></a></p>
 
-<p><strong><a href="/winterreading" title="Winter Reading Challenge" class="om-autoscroll">Take the Challenge ▶</a></strong></p>
+<p>MCPL offers two eMagazine services that allow you access to over 200 popular digital magazines from <em>Time</em> to <em>Rolling Stone</em> and <em>PC World</em> to <em>People</em>.</p>
+
+<p><strong><a href="http://www.mymcpl.org/books-movies-music/emagazines" title="eMagazines">Download a magazine ▶</a></strong></p>
 </div></div>
-  </div><!-- /.block -->
+            </div>
           <div class="om-clearfix"></div>
         </div><!-- /.om-maximenu-middle-right --> 
       </div><!-- /.om-maximenu-middle-left --> 
@@ -309,9 +311,10 @@ $('#q').attr('value','');
     </div><!-- /.om-maximenu-bottom -->  
     <div class="om-maximenu-arrow"></div>
     <div class="om-maximenu-open">
-      <input type="checkbox" value="">
+      <input type="checkbox" value="" />
       Stay    </div><!-- /.om-maximenu-open -->  
   </div><!-- /.om-maximenu-content -->  
+ 
  
 
       
@@ -409,7 +412,7 @@ $("#ebscohostsearchtextBlock").blur(function() {
     <div class="content"><div class="featured" style="display: block;">
 <h2 style="background: none; margin-top: .5em;">Featured</h2>
 
-<p><a href="/online-information/research-databases/Genealogy" title="Genealogy Research" class="om-autoscroll"><img style="float: right; margin-left: 10px; margin-right: 10px;" src="/_uploaded_resources/feature-computer.jpg" alt="Genealogy Research" width="200"></a></p>
+<p><a href="/online-information/research-databases/Genealogy" title="Genealogy Research" class="om-autoscroll"><img style="float: right; margin-left: 10px; margin-right: 10px;" src="http://www.mymcpl.org/_uploaded_resources/feature-computer.jpg" alt="Genealogy Research" width="200"></a></p>
 
 <p>Research your family history with MCPL. We have over 20 high-quality research resources for you to explore to help you dig up the past on your family tree.</p> 
 
@@ -481,17 +484,6 @@ $("#ebscohostsearchtextBlock").blur(function() {
   </div><!-- /.block -->
  
 
-<div class="block block-block block-block-id-91 last">           
-    <div class="content"><div class="featured" style="display: block;">
-<h2 style="background: none; margin-top: .5em;">Featured</h2> 
-
-<p><a href="/events/spring-sportsman" title="Spring Sportsman" class="om-autoscroll"> <img style="float: right; margin-left: 15px; margin-right: 10px; margin-bottom: 10px;" src="/_uploaded_resources/feature-fishing.jpg" alt="fishing image" title="Spring Sportsman" width="200"></a></p> 
-
-<p>Springtime is upon us. Take an opportunity to learn more about some great spring hobbies from an experienced outdoorsman.</p> 
-
-<p style="text-align: left;"><strong><a href="/events/spring-sportsman" title="Spring Sportsman" class="om-autoscroll">Find a class near you ▶</a></strong></p>
-</div></div>
-  </div><!-- /.block -->
           <div class="om-clearfix"></div>
         </div><!-- /.om-maximenu-middle-right --> 
       </div><!-- /.om-maximenu-middle-left --> 
@@ -556,7 +548,7 @@ $("#ebscohostsearchtextBlock").blur(function() {
     <div class="content"><div class="featured" style="display: block;">
 <h2 style="background: none; margin-top: .5em;">Featured</h2>
 
-<p><a href="/events/story-center-series" title="Story Center" class="om-autoscroll"><img style="float: right; margin-left: 10px; margin-right: 10px;" src="/_uploaded_resources/feature-storycenter.jpg" alt="Story Center" width="200"></a></p>
+<p><a href="/events/story-center-series" title="Story Center" class="om-autoscroll"><img style="float: right; margin-left: 10px; margin-right: 10px;" src="http://www.mymcpl.org/_uploaded_resources/feature-storycenter.jpg" alt="Story Center" width="200"></a></p>
 
 <p>The Story Center regularly hosts events for writers, both beginners and advanced. Whether you're still working on an idea or you're already published, the Story Center can help. </p>
 
@@ -626,7 +618,7 @@ $("#ebscohostsearchtextBlock").blur(function() {
     <div class="content"><div class="featured" style="display: block;">
 <h2 style="background: none; margin-top: .5em;">Featured</h2>
 
-<p><a href="/kids/homework-help-kids" title="Homework Help" style="font-size: 13px; font-weight: normal;" class="om-autoscroll"><img style="float: right; margin-left: 10px; margin-right: 10px;" src="/_uploaded_resources/feature-homework.jpg" alt="Homework Help" width="200"></a></p>
+<p><a href="/kids/homework-help-kids" title="Homework Help" style="font-size: 13px; font-weight: normal;" class="om-autoscroll"><img style="float: right; margin-left: 10px; margin-right: 10px;" src="http://www.mymcpl.org/_uploaded_resources/feature-homework.jpg" alt="Homework Help" width="200"></a></p>
 
 <p>Need some help with your English homework? Maybe a history or science project? Just need some general tutoring help? MCPL's Homework Help area has the resources you need.</p>
 
@@ -693,7 +685,7 @@ $("#ebscohostsearchtextBlock").blur(function() {
     <div class="content"><div class="featured" style="display: block;">
 <h2 style="background: none; margin-top: .5em;">Featured</h2>
 
-<p><a href="/teens/homework-help-teens" title="Homework Help" style="font-size: 13px; font-weight: normal;" class="om-autoscroll"><img style="float: right; margin-left: 10px; margin-right: 10px;" src="/_uploaded_resources/feature-teenhomework.jpg" alt="Homework Help" width="200"></a></p>
+<p><a href="/teens/homework-help-teens" title="Homework Help" style="font-size: 13px; font-weight: normal;" class="om-autoscroll"><img style="float: right; margin-left: 10px; margin-right: 10px;" src="http://www.mymcpl.org/_uploaded_resources/feature-teenhomework.jpg" alt="Homework Help" width="200"></a></p>
 
 <p>Need some help with your English homework? Maybe a history or science project? Just need some general tutoring help? MCPL's Homework Help area has the resources you need.</p>
 
@@ -1107,7 +1099,7 @@ $('#edit-submitted-currenturl').val(document.URL);
       </ul>
 
 
-<a href="http://www.mymcpl.org/about-us/feedback"><img src="/_uploaded_resources/talktous_bottom.gif" width="134" height="45"></a>
+<a href="http://www.mymcpl.org/about-us/feedback"><img src="http://www.mymcpl.org/_uploaded_resources/talktous_bottom.gif" width="134" height="45"></a>
 
 <h5><br><br>Sharing Tools</h5>
 
