@@ -91,6 +91,7 @@ padding:.2em 1em 0 1em;
  
 #om-maximenu-main-1 li {
 list-style-type: none;
+list-style-image: none;
 }
 
 .om-maximenu-open {
@@ -215,6 +216,7 @@ background: #f7f7f7;
 	#om-menu-main-1 .leaf-catalog div.om-maximenu-bottom
 	{
 	width: 240px;
+    margin-left: 20px;
 	}
 /* Wide menu layout */
 
@@ -224,6 +226,7 @@ background: #f7f7f7;
 #om-menu-main-1 div.om-maximenu-bottom
 {
 width: 480px;
+margin-left: 20px;
 }
 /*
 #om-menu-main-1 div.om-maximenu-middle .om-maximenu-middle-right {
