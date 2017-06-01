@@ -56,6 +56,7 @@ stylesheets[all][]   = _resources/css/bootstrap-datepicker3.css
 ; conditional-stylesheets[if IE][all][] = ie.css
 
   ; Optionally add some jquery scripts to your theme.
+scripts[] = _resources/js/D6_jquery.js
 scripts[] = _resources/js/jquery-1.11.3.min.js
 scripts[] = _resources/js/script.js
 ;scripts[] = _resources/js/jquery-1.4.1.min.js

@@ -9,8 +9,20 @@
  */
   
 $(document).ready(function(){
+      $('#om-maximenu-main-1 li.om-leaf .om-maximenu-content').removeClass('om-maximenu-content-nofade');
+      //$('#om-maximenu-main-1 li.om-leaf').hover(omFadeIn,omFadeOut); //native jquery
+      //$('#om-maximenu-main-1 li.om-leaf').hoverIntent(omFadeIn,omFadeOut); //jquery hoverintent
+      $('#om-maximenu-main-1 li.om-leaf').hoverIntent({
+        over: omFadeIn,
+        timeout: 200,
+        out: omFadeOut
+      });
+
+    function omFadeIn(){ $('.om-maximenu-content.closed', this).fadeIn(); }
+    function omFadeOut(){ $('.om-maximenu-content.closed', this).fadeOut(); } 
+    
 	//back to top scroll function. Any link with a hash (#) will scroll to that id on the page
-	$('.om-maximenu li.om-leaf a').addClass('om-autoscroll');
+    $('.om-maximenu li.om-leaf a').addClass('om-autoscroll');
 
 	$('a.om-autoscroll[href*=#]').click(function() {
 		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
