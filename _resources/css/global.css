@@ -355,7 +355,7 @@ h2#section{
 
 .block h2, .view h2, #tertiary .block h3, #tertiary .view h3, #primary .secondary h2, #primary .secondary h3, .front #secondary h3, #block-system-navigation h2 {
 /* 	background-color: #f8c73b; */
-	background: transparent url('../img/css/bg-hdr-sprite.png') left top repeat-x;
+/*	background: transparent url('../img/css/bg-hdr-sprite.png') left top repeat-x; */
 
 	clear: both;
 	color: #583f2c;
@@ -1120,12 +1120,12 @@ a.form-submit-gray:hover {
 /* 	white box styles
 	.block .content 
 	#pri .block .content
-*/
 
 .block .content {
 	margin-bottom: 1.585em;
 	padding: 1.915em 20px 30px 20px;
 }
+*/
 	
 .front .content, .front #primary .view, .front #secondary .block-inner, .front #tertiary .block {
 /* 	background: transparent url('../img/css/bg-home-boxes.png') left bottom repeat-y; */
@@ -3186,8 +3186,8 @@ list-style: none;
 /* Views exposed filters */
 
 .views-exposed-form {
- /* background-color: #F5F5F5;*/
-  padding: 10px;
+ /* background-color: #F5F5F5;
+  padding: 10px;*/
 }
 
 .view-user-created-content .views-exposed-form .form-item input {
