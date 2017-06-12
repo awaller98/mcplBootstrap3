@@ -27,9 +27,9 @@
   ?>
 <?php endif; ?>
 <div class="views-exposed-form">
-  <div class="views-exposed-widgets clearfix">
+  <div class="views-exposed-widgets col-sm-12">
     <?php foreach ($widgets as $id => $widget): ?>
-      <div id="<?php print $widget->id; ?>-wrapper" class="views-exposed-widget views-widget-<?php print $id; ?>">
+      <div id="<?php print $widget->id; ?>-wrapper" class="col-sm-8 views-exposed-widget views-widget-<?php print $id; ?>">
         <?php if (!empty($widget->label)): ?>
           <label for="<?php print $widget->id; ?>">
             <?php print $widget->label; ?>
@@ -68,7 +68,7 @@
         <?php print $offset; ?>
       </div>
     <?php endif; ?>
-    <div class="views-exposed-widget views-submit-button">
+    <div class="views-exposed-widget views-submit-button col-sm-3 col-sm-offset-1">
       <?php print $button; ?>
     </div>
     <?php if (!empty($reset_button)): ?>
