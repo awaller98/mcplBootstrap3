@@ -290,13 +290,6 @@ div.secondary h4{
 		padding-left: 20px;
 		padding-top: 4px;
 	 } 
-	 .section-teens #primary .primary h3{
-	 	background: #F8C73C url('../img/css/bg-hdr-notch-yellow.png') -3px top no-repeat;
-	 	font-family: arial, helvetica, verdana, sans-serif;
-	 	margin-left: -21px;
-	 	margin-bottom: .75em;
-	 	padding: 0.45em 0 0.4em 24px;
-	 }
 .related-info h3 {
 	font-family: arial, helvetica, verdana, sans-serif;
 	padding-bottom: .5em;
@@ -408,30 +401,6 @@ h2#section{
 	}
 	
 /* .title-ribbon { */
-.section-teens  .two-sidebars .primary h2, .section-teens .two-sidebars .primary h3, 
-.section-teens #primary .secondary h2, .section-teens #primary .secondary h3{
-	background: transparent url('../img/css/bg-ribbon.png') left top no-repeat;
-	margin: -15px 0 8px -25px;
-	margin: 0 0 -10px -4px;
-	padding-top: 10px;
-/* 	padding-bottom: 12px; */
-/* 	width: 229px; */
-	
-	position: relative;
-	zoom: 1;
-}
-.section-teens h2 em, .section-teens h3 em, .section-teens h4 em  {
-	display: block;
-	font-style: italic;
-	font-weight: normal;
-	letter-spacing: 1px;
-	margin-top: 3px;
-	text-transform: none;
-	}
-/* 	* html .title-ribbon {
-		position: relative;
-		zoom: 1;	
-	} */
 
 	#slider-container h2 {
 		background-image: none;
@@ -442,32 +411,6 @@ h2#section{
 	}
 
 
-	/* .title-ribbon h2, #primary .secondary .title-ribbon h3, #primary .secondary .title-ribbon h4 { */
-	.section-teens .two-sidebars h2 span, .section-teens .two-sidebars h3 span, 
-	.section-teens #primary .secondary h3 span, .section-teens #primary .secondary h2 span {
-		background: #e53148 url('../img/css/bg-ribbon.png') left bottom no-repeat;
-/* 		background-color: #e53148; */
-		color: #fff;
-		display: block;
-		font-family: arial, helvetica, verdana, sans-serif;
-		font-weight: bold;
-		font-size: 1em;
-		letter-spacing: 2px;
-		margin-right: 10px;
-		padding: 8px 9px 18px 25px;
-		text-transform: uppercase;
-		width: 229px;
-	}
-
-	.section-teens #primary .secondary h2, .section-teens #primary .secondary h3 {
-
-	}
-		.section-teens #primary .secondary h2 span, .section-teens #primary .secondary h3 span{
-/* 			background: transparent url('../img/css/bg-ribbon-narrow.png') left bottom no-repeat; */
-	/* 		margin: -15px 0 8px -23px; */
-	/* 		padding-bottom: 12px; */
-			width: 209px;
-		}
 
 .secondary .block .content {
 	background: transparent url('../img/css/bg-sidebar-content.png') left top repeat-y;
@@ -1209,19 +1152,6 @@ a.form-submit-gray:hover {
 		margin-bottom: 0;
 	}
 	
-	.section-teens .two-sidebars .footer	{ /* used on the bottom of white boxes for more links */
-		background: #FFFFFF;	
-		border-top: none;
-		clear: both;
-		margin-left: -17px;
-		margin-bottom: -28px;
-		padding-left: 15px;
-		position: relative;
-		width: 444px;
-	}
-		.section-teens .two-sidebars .secondary .footer {
-			width: 203px;
-		}
 
 	#primary .secondary .footer a.more{
 		position: relative;
@@ -1274,8 +1204,6 @@ a.form-submit-gray:hover {
 margin-bottom: .5em;
 padding-bottom: .5em;
 }	
-
-.section-teens .primary .post {overflow: visible;}
 
 .list-thumb-switcher {
 	position: relative;
@@ -1641,9 +1569,6 @@ form#poll input {
 .poll .vote-form {
 	font-family: georgia, "times new roman", serif;
 }	
-	.section-teens .poll .vote-form {
-		font-family: arial, helvetica, verdana, sans-serif;
-	}
 	.poll .vote-form .choices{
 		border-bottom: 1px dashed #B7B3A6;
 		font: 1.085em georgia, "times new roman", serif;
@@ -1722,18 +1647,6 @@ button.view-all:hover {
 	background-position: -100px -123px;
 }
 
-button.more-teen-work {
-	background:url("../img/css/mcpl-buttons.png") 0 -300px no-repeat;
-	border:none;
-	height:21px;
-	margin-top:1px;
-	text-indent:-999em;
-	width:189px;	
-	}
-	
-button.more-teen-work:hover {
-	background-position: 0 -323px;
-	}
 
 /*
  * 
@@ -2136,29 +2049,6 @@ ul#flowtabs {
 * html .front ul#flowtabs, * html .front ul#flowtabs li a, * html .front ul#flowtabs li a.current{background-image: url('../img/css/mcpl-slider-sprite-home-ie.gif');}
 		
 /*--------- end slideshow */
-
-/* -----  teens block display */
-#block-block-17 img {padding-right: 5px; width: 85px; height: 85px;}
-	*+html #block-block-17 img {padding-bottom: 5px;}
-.section-teens #block-block-41 .content {padding: 0px; background: none;}
-#block-block-45 .content {padding: 0px; background: none;}
-	/* Teens create art - Views slideshow -- AMW */
-	.view-user-created-content.view-display-id-block_2 .view-header,
-	 .view-user-created-content.view-display-id-block_2 .view-content {
-	 	display: inline-block;
-	 	vertical-align: top;
-	 }
-	 .view-user-created-content.view-display-id-block_2 .view-header {
-	 	width: 52%;
-	 	padding-right: 30px;
-	 }
-	 .view-user-created-content.view-display-id-block_2 .view-content {
-	 	width: 37%;
-	 }
-	 .view-user-created-content.view-display-id-block_2 .view-content a > img {
-	 	margin-left: 16px;
-	 }
-/* -----  end teens block display */
 
 .page-kids{}
 	.page-kids.node-type-landing-2c  #content-bottom  .block-block {
