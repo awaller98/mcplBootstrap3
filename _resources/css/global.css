@@ -383,16 +383,6 @@ h2#section{
 	
 /* .title-ribbon { */
 
-	#slider-container h2 {
-		background-image: none;
-		margin: 0;
-		padding: 0;
-		margin-bottom: 7px;
-		margin-bottom: 5px;
-	}
-
-
-
 .secondary .block .content {
 	background: transparent url('../img/css/bg-sidebar-content.png') left top repeat-y;
 	padding-bottom: 0;
@@ -1861,176 +1851,6 @@ border: 1px solid #cccccc;
     
  
     
-/*--------- slideshow */
-
-#slider-container {
-	background: transparent url('../img/css/bg-main-content.png') left top repeat-y;
-	padding: 2px 8px 8px 9px;
-	width: 450px;
-	box-sizing: content-box;
-	}
-	.front #slider-container {width: 940px; background: none; padding: 0px 0px 0px 0px; background-color: #007fc6;}
-	.section-books-movies-music #lead #slider-container {width: 705px; background: none; padding: 0px 0px 0px 0px;}
-	
-	.slide-btm {
-	margin-bottom: 1.5em;
-	}
-
-/* override the root element to enable scrolling */
-#flowpanes {
-	position:relative;
-	overflow:hidden;
-	clear:both;
-	width: 450px;
-	height: 450px;
-}
-	.front #flowpanes { width: 940px; height: 316px; }
-	.section-books-movies-music #lead #flowpanes { width: 705px; height: 300px; margin: 0 0 15px 0; }
-
-	/* override single pane */
-	 #flowpanes div {
-		float:left;
-		font-size:12px;
-		display:block;
-		width:450px;
-			} 
-		.front #flowpanes div { 
-			width:940px;
-			font-size:14px;
-/*			border: 1px solid #0f0; */
-		}
-		.section-books-movies-music #lead #flowpanes div { 
-			width:640px;
-		}
-			
-	#flowpanes div.info, .section-books-movies-music #lead #flowpanes .pane{
-		z-index: 222;
-		margin-top: 28px; /* clear the tabs */
-		padding: 0 10px;
-		width: 430px;
-	}
-		.section-books-movies-music #lead #flowpanes .pane {width: 705px; color: white;}
-		.section-books-movies-music #lead #flowpanes .pane h2 {color: white; font-family: Arial, Helvetica, sans-serif; font-size: .9em; font-weight: bold;}
-		.section-books-movies-music #lead #flowpanes .pane h3 {color: white; font-size: .8em; font-style: italic;}
-		.section-books-movies-music #lead #flowpanes .blurb { width: 212px; float: left; text-align: center; border-right: 1px dotted #808080; vertical-align: center; height: 230px;}
-		.section-books-movies-music #lead #flowpanes .blurb.last {border: 0}
-		.section-books-movies-music #lead #flowpanes .blurb img {height: 150px; padding: 1em 0 1em 0;}
-		
-		.section-books-movies-music .pane a.next, .section-books-movies-music .pane a.prev{
-			background:  transparent url('../img/css/mcpl-sprite-global.png') 0 0 no-repeat;
-			display: block;
-			height: 22px;
-			overflow: hidden;
-			width: 24px;
-			text-indent: -9999px;
-		}	
-			.section-books-movies-music .pane a.next { background-position: -100px -390px; width: 24px; margin-top: 80px; float: left; }
-			.section-books-movies-music .pane a.prev  { background-position: -70px -390px; width: 24px; margin-top: 80px; float: left; }
-		
-		.section-books-movies-music .scrollable {
-			position:relative;
-			overflow:hidden;
-			width: 646px;
-			height: 250px;
-			}		
-		.section-books-movies-music .scrollable .items {
-			width:20000em;
-			position:absolute;
-			clear:both;
-			}					
-		
-		.front #flowpanes div img {float:left;}
-		.front #flowpanes div.info { width: 250px; float: left; display: block;}
-		.front #flowpanes div h2, .front #flowpanes div p, .front #flowpanes div a.more { margin-left: 15px; color: #fff; margin-right: 15px; }
-		.front #flowpanes div h2 { font-size: 2em; padding: .75em 0 .75em; 0 }
-		.front #flowpanes div p { font-size: 1em; }
-		#flowpanes .info h2 {
-			font-size: 1.286em;
-		}
-			.not-front #flowpanes .info h2 { font-family: Arial, Helvetica, sans-serif; font-weight: bold; color: #393D40; -webkit-text-size-adjust: none; /* Prevent font scaling in landscape */  }
-	/* our additional wrapper element for the items */
-	#flowpanes .items, .front #flowpanes .items, .section-books-movies-music #lead #flowpanes .items, .section-books-movies-music #lead #flowpanes .panes  {
-		width:20000em;
-		position:absolute;
-		clear:both;
-		margin:0;
-		padding:0;
-	}
-		#innerpanes div {
-			width:20000em;
-			position:absolute;
-			clear:both;
-			margin:0;
-			padding:0;		
-		}
-	
-	#flowpanes .less, #flowpanes .less a {
-		color:#999 !important;
-		font-size:11px;
-	}
-
-ul#flowtabs {
-	background: transparent url('../img/css/mcpl-slider-sprite-home.png') -90px -7px no-repeat;
-	display: none;
-	height: 48px;
-	margin: -21px 0 0 0;
-	padding: 0 0 3px 0;
-	position: relative;
-	width: 454px;
-	z-index: 10;
-
-	margin-top: -158px;
-	position: absolute;
-	}
-	.front ul#flowtabs { margin-top: -48px; width: 940px; }
-	.section-books-movies-music #lead ul#flowtabs { margin-top: -51px; margin-left: 3px; width: 703px; background: transparent url('../img/css/mcpl-slider-sprite-books.png') -317px -7px no-repeat; }
-		* html .section-books-movies-music #lead ul#flowtabs {background: transparent url('../img/css/mcpl-slider-sprite-books-ie.gif') -317px -7px no-repeat;}
-	.two-sidebars ul#flowtabs { background: transparent url('../img/css/mcpl-slider-sprite-home.png') -581px -7px no-repeat; }
-	ul#flowtabs.show {
-		display: block;
-	}
-	
-	ul#flowtabs li {
-		display: inline-block;
-		float: left;
-		list-style: none;
-		width: 56px;
-		}
-		.section-books-movies-music #lead ul#flowtabs li {width: 95px;}
-		
-	ul#flowtabs li a {
-		background: transparent url('../img/css/mcpl-slider-sprite.png') -61px -7px no-repeat;
-		display:block;
-		float: left;
-		height: 48px;
-		outline: none;
-		text-indent: -9999px;
-		width: 56px;
-		}
-		.front ul#flowtabs li a { background: transparent url('../img/css/mcpl-slider-sprite-home.png') -61px -7px no-repeat; }
-		.section-books-movies-music #lead ul#flowtabs li a { 
-			width: 95px; 
-			background: transparent url('../img/css/mcpl-slider-sprite-books.png') -101px -7px no-repeat;
-			text-indent: 0px;
-			color: white;
-			font-weight: bold;
-			text-decoration: none;
-			text-align: center;
-			padding-top: 1.65em;
-			}
-			* html .section-books-movies-music #lead ul#flowtabs li a {background: transparent url('../img/css/mcpl-slider-sprite-books-ie.gif') -101px -7px no-repeat;}
-	
-	ul#flowtabs li a.current {
-		background: transparent url('../img/css/mcpl-slider-sprite.png') 0px 3px no-repeat;
-		}
-		.front ul#flowtabs li a.current { background: transparent url('../img/css/mcpl-slider-sprite-home.png') 0px 3px no-repeat; }
-		.section-books-movies-music #lead ul#flowtabs li a.current { background: transparent url('../img/css/mcpl-slider-sprite-books.png') 0px  -7px; no-repeat; }
-			* html .section-books-movies-music #lead ul#flowtabs li a.current { background: transparent url('../img/css/mcpl-slider-sprite-books-ie.gif') 0px  -7px; no-repeat; }
-* html ul#flowtabs, * html ul#flowtabs li a, * html ul#flowtabs li a.current{background-image: url('../img/css/mcpl-slider-sprite-ie.gif');}
-* html .front ul#flowtabs, * html .front ul#flowtabs li a, * html .front ul#flowtabs li a.current{background-image: url('../img/css/mcpl-slider-sprite-home-ie.gif');}
-		
-/*--------- end slideshow */
-
 /* Blog Image Display */
 
 .views-field-field-external-image-value	img { float: right; padding-left: 1em; }	
@@ -2144,28 +1964,6 @@ visibility: hidden;
 .fsl.fwb {
 display: none;
 visibility: hidden;
-}
-
-/* jQuery slideToggle menu styles -AMW*/
-
-.expandable span
-{
-color:#007fc6;
-background:url(/sites/all/themes/mcpl/_resources/img/arrow-toggle.png) 4px 3px;
-background-repeat:no-repeat;
-padding-left:20px;
-
-}
-
-.expandable span:hover {
-opacity:.8;
-text-decoration:underline; }
-
-.expanded#toggle span
-{
-background:url(/sites/all/themes/mcpl/_resources/img/arrow-toggle.png) 4px -30px;
-background-repeat:no-repeat;
-padding-left:20px;
 }
 
 /*Augment drupal expanding menu styles by adding "expander" class - AMW*/
@@ -2697,7 +2495,6 @@ list-style: none;
     padding-top: 0;
 }
 
-.section-story-center #slider-container, 
 .section-story-center .two-sidebars .primary .content,
 .section-story-center .two-sidebars .secondary .content,
 .section-story-center .one-sidebar #primary div.primary {
