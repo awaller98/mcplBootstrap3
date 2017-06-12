@@ -349,17 +349,6 @@ h2#section{
 		padding-bottom: 0;
 		width: 222px;
 	}
-	.section-kids #primary .secondary h2, .section-kids #primary .secondary h3 {
-		background-position: -1172px top;
-		padding-top: 14px;
-		
-		margin: 0 -2px 0 1px;
-	}
-	.section-kids #primary .primary h2{
-		background-position: -700px top;
-		background-position: -703px top;
-		padding-top: 14px;
-	}
 .block h2 span, .view h2 span, #tertiary .block h3 span, #tertiary .view h3 span, #primary .secondary h2 span, #primary .secondary h3 span, .front #secondary h3 span, #block-system-navigation h2 {
 	background: transparent url('../img/css/bg-hdr-sprite.png') -472px 0px repeat-x;
 	margin: -5px 5px 0 0;
@@ -373,14 +362,6 @@ h2#section{
 	.block h2 span, .view h2 span, #tertiary .block h3 span, #tertiary .view h3 span, #primary .secondary h3 span, .front #secondary h3 span{
 		background-position: 0 bottom;
 	}
-		.section-kids #primary h3 span, 
-		.section-kids #primary h2 span {
-			background-color: transparent;
-			background-position: -1399px bottom;
-			color: #fff;
-			padding-bottom: 21px;
-			padding-top: 0;
-		}
 	.two-sidebars #primary h2{
 
 	}
@@ -2050,42 +2031,6 @@ ul#flowtabs {
 		
 /*--------- end slideshow */
 
-.page-kids{}
-	.page-kids.node-type-landing-2c  #content-bottom  .block-block {
-		background-color: #E5374E;
-		float: left;
-		height: 134px;
-		margin-right: 15px;
-/* 		padding: 8px; */
-		border: 8px solid #fff; /* prolly need to be replaced with a bgi + padding */
-		text-align: center;
-		width: 199px;
-	}
-	.page-kids.node-type-landing-2c  #content-bottom .region-odd {
-		background-color: #0882C5;
-	}
-	.page-kids.node-type-landing-2c  #content-bottom  .block-block .content{
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-	}
-		.page-kids.node-type-landing-2c  #content-bottom  .block-block h2 {
-			background: transparent none;
-			color: #fff;
-			font-size: 1.4em;
-			font-weight: bold;
-			margin: 0;
-			padding: 2em .5em 1em .5em;
-			text-transform: none;
-			height: 40px;
-		}
-		.page-kids.node-type-landing-2c  #content-bottom  .block-block h2 span {
-			background: transparent none;
-		}
-		.page-kids.node-type-landing-2c  #content-bottom  .block-block a{
-			color: #fff;
-		}
-		
 /* Blog Image Display */
 
 .views-field-field-external-image-value	img { float: right; padding-left: 1em; }	
@@ -2134,91 +2079,6 @@ width: auto;
 }
 
 
-/* Background colors for the 6 nav boxes on kids landing */
-.page-kids.node-type-landing-2c #content-bottom #block-block-9 {
-  background-color: #eb4757;
-}
-.page-kids.node-type-landing-2c #content-bottom  a.more.btn-go-red {
- display: block;
- background: url("../img/css/go_buttons.png") no-repeat scroll -0px -0px transparent;
- text-indent: -999em;
- width: 60px;
- height: 22px;
- margin-left: 70px;
- }
- .page-kids.node-type-landing-2c #content-bottom .more.btn-go-red:hover {
- background: url("../img/css/go_buttons.png") no-repeat scroll -0px -22px transparent;
- }
-.page-kids.node-type-landing-2c #content-bottom #block-block-10 {
-  background-color: #f19542;
-}
-.page-kids.node-type-landing-2c #content-bottom  a.more.btn-go-oj {
- display: block;
- background: url("../img/css/go_buttons.png") no-repeat scroll -0px -44px transparent;
- text-indent: -999em;
- width: 60px;
- height: 22px;
- margin-left: 70px;
- }
- .page-kids.node-type-landing-2c #content-bottom .more.btn-go-oj:hover {
- background: url("../img/css/go_buttons.png") no-repeat scroll -0px -66px transparent;
- }
-.page-kids.node-type-landing-2c #content-bottom #block-block-11 {
-  background-color: #f7cb45;
-}
-.page-kids.node-type-landing-2c #content-bottom  a.more.btn-go-yellow {
- display: block;
- background: url("../img/css/go_buttons.png") no-repeat scroll -0px -88px transparent;
- text-indent: -999em;
- width: 60px;
- height: 22px;
- margin-left: 70px;
- }
- .page-kids.node-type-landing-2c #content-bottom .more.btn-go-yellow:hover {
- background: url("../img/css/go_buttons.png") no-repeat scroll -0px -110px transparent;
- }
-.page-kids.node-type-landing-2c #content-bottom #block-block-12 {
-  background-color: #9ccc56;
-}
-.page-kids.node-type-landing-2c #content-bottom  a.more.btn-go-green {
- display: block;
- background: url("../img/css/go_buttons.png") no-repeat scroll -0px -132px transparent;
- text-indent: -999em;
- width: 60px;
- height: 22px;
- margin-left: 70px;
- }
- .page-kids.node-type-landing-2c #content-bottom .more.btn-go-green:hover {
- background: url("../img/css/go_buttons.png") no-repeat scroll -0px -154px transparent;
- }
-.page-kids.node-type-landing-2c #content-bottom #block-block-19 {
-  background-color: #008fcd;
-}
-.page-kids.node-type-landing-2c #content-bottom  a.more.btn-go-blue {
- display: block;
- background: url("../img/css/go_buttons.png") no-repeat scroll -0px -176px transparent;
- text-indent: -999em;
- width: 60px;
- height: 22px;
- margin-left: 70px;
- }
- .page-kids.node-type-landing-2c #content-bottom .more.btn-go-blue:hover {
- background: url("../img/css/go_buttons.png") no-repeat scroll -0px -198px transparent;
- }
-.page-kids.node-type-landing-2c #content-bottom #block-block-20 {
-  background-color: #8d4ba4;
-}
-.page-kids.node-type-landing-2c #content-bottom  a.more.btn-go-purp {
- display: block;
- background: url("../img/css/go_buttons.png") no-repeat scroll -0px -220px transparent;
- text-indent: -999em;
- width: 60px;
- height: 22px;
- margin-left: 70px;
- }
- .page-kids.node-type-landing-2c #content-bottom .more.btn-go-purp:hover {
- background: url("../img/css/go_buttons.png") no-repeat scroll -0px -242px transparent;
- }
 
 /*
  * pager
