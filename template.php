@@ -97,10 +97,7 @@ include_once 'common.inc';
  * they are properly detected when drupal_alter() is invoked.
  */
 mcplBootstrap3_include('mcplBootstrap3', 'alter.inc');
-
-
-//mcplBootstrap3_include('mcplBootstrap3', 'button.funct.inc');
-
-//mcplBootstrap3_include('mcplBootstrap3', 'button.vars.inc');
-//mcplBootstrap3_include('mcplBootstrap3', 'common.inc');
+mcplBootstrap3_include('mcplBootstrap3', 'button.funct.inc');
+mcplBootstrap3_include('mcplBootstrap3', 'button.vars.inc');
+mcplBootstrap3_include('mcplBootstrap3', 'common.inc');
 
