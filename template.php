@@ -104,7 +104,7 @@ mcplBootstrap3_include('mcplBootstrap3', 'alter.inc');
 function mcplBootstrap3_preprocess_button(&$variables) {
   $variables['element']['#attributes']['class'] = array();
   $variables['element']['#attributes']['class'][] = 'btn';
-  $variables['element']['#attributes']['class'][] = 'btn-default';
+  $variables['element']['#attributes']['class'][] = 'btn-primary';
 
 
   // Special styles for Delete/Destructive Buttons.
