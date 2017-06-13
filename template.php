@@ -96,8 +96,36 @@ include_once 'common.inc';
  * hook_*_alter() implementations must live (via include) inside this file so
  * they are properly detected when drupal_alter() is invoked.
  */
-mcplBootstrap3_include('mcplBootstrap3', 'alter.inc');
-mcplBootstrap3_include('mcplBootstrap3', 'button.funct.inc');
-mcplBootstrap3_include('mcplBootstrap3', 'button.vars.inc');
-mcplBootstrap3_include('mcplBootstrap3', 'common.inc');
 
+mcplBootstrap3_include('mcplBootstrap3', 'alter.inc');
+//mcplBootstrap3_include('mcplBootstrap3', 'button.funct.inc');
+//mcplBootstrap3_include('mcplBootstrap3', 'button.vars.inc');
+
+function mcplBootstrap3_preprocess_button(&$variables) {
+  $variables['element']['#attributes']['class'] = array();
+  $variables['element']['#attributes']['class'][] = 'btn';
+  $variables['element']['#attributes']['class'][] = 'btn-default';
+
+
+  // Special styles for Delete/Destructive Buttons.
+  if (stristr($variables['element']['#value'], 'Delete') !== FALSE) {
+    $variables['element']['#attributes']['class'][] = 'btn-danger';
+  }
+}
+
+/**
+* Returns the HTML for a button.
+*/
+
+function mcplBootstrap3_button($variables) {
+  $element = $variables['element'];
+  $element['#attributes']['type'] = 'submit';
+  element_set_attributes($element, array('id', 'name', 'value'));
+
+  $element['#attributes']['class'][] = 'form-' . $element['#button_type'];
+  if (!empty($element['#attributes']['disabled'])) {
+    $element['#attributes']['class'][] = 'disabled';
+  }
+
+  return '<input' . drupal_attributes($element['#attributes']) . ' /> ';
+}
