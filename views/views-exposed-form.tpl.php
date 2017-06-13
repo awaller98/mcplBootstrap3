@@ -68,7 +68,7 @@
         <?php print $offset; ?>
       </div>
     <?php endif; ?>
-    <div class="views-exposed-widget views-submit-button">
+    <div class="views-exposed-widget views-submit-button col-sm-3 col-sm-offset-1">
       <?php print $button; ?>
     </div>
     <?php if (!empty($reset_button)): ?>
